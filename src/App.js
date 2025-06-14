@@ -7,13 +7,13 @@ const rooms = [
     type: "Standard Room",
     price: "₹1800 per night",
     features: ["Wi-Fi", "Attached Bathroom", "Ceiling Fan", "Room Service"],
-    image: process.env.PUBLIC_URL + "/images/standard-room.jpg",
+    image: "/images/standard-room.jpg",
   },
   {
     type: "Deluxe Room",
     price: "₹2500 per night",
     features: ["Wi-Fi", "Attached Bathroom", "Ceiling Fan", "Room Service", "Air Cooler"],
-    image: process.env.PUBLIC_URL + "/images/deluxe-room.jpg",
+    image: "/images/deluxe-room.jpg",
   },
 ];
 
@@ -60,11 +60,11 @@ export default function RayaanGuestHouse() {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Gallery</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src={process.env.PUBLIC_URL + "/images/gallery1.jpg"} alt="Room" className="rounded-2xl" />
-          <img src={process.env.PUBLIC_URL + "/images/gallery2.jpg"} alt="Room" className="rounded-2xl" />
-          <img src={process.env.PUBLIC_URL + "/images/gallery3.jpg"} alt="Room" className="rounded-2xl" />
-          <img src={process.env.PUBLIC_URL + "/images/lobby-placeholder.jpg"} alt="Lobby" className="rounded-2xl" />
-          <img src={process.env.PUBLIC_URL + "/images/garden-placeholder.jpg"} alt="Garden" className="rounded-2xl" />
+          <img src="/images/gallery1.jpg" alt="Room" className="rounded-2xl" />
+          <img src="/images/gallery2.jpg" alt="Room" className="rounded-2xl" />
+          <img src="/images/gallery3.jpg" alt="Room" className="rounded-2xl" />
+          <img src="/images/lobby-placeholder.jpg" alt="Lobby" className="rounded-2xl" />
+          <img src="/images/garden-placeholder.jpg" alt="Garden" className="rounded-2xl" />
         </div>
       </section>
 
